@@ -1,21 +1,23 @@
 /* ============================================================
    Auburn Math Award Toolkit — Custom Styles
-   Auburn Navy: #03244d   Auburn Orange: #DD550C (official AU)
+   Official Auburn Brand Colors (PMS 289 C / PMS 158 C)
+   Auburn Navy: #0C2340   Auburn Orange: #E87722
+   Source: https://ocm.auburn.edu/brand-center/
    ============================================================ */
 
 :root {
-  --au-navy: #03244d;
-  --au-orange: #DD550C;
-  --au-orange-light: #f5a623;
-  --au-navy-light: #1a4a7a;
+  --au-navy: #0C2340;
+  --au-orange: #E87722;
+  --au-orange-light: #F2A761;
+  --au-navy-light: #1B3A5C;
   --au-cream: #faf8f5;
   --au-gray: #f4f4f4;
   --au-border: #dde1e6;
   --au-text: #2c3e50;
   --au-text-light: #5a6a7a;
   --radius: 8px;
-  --shadow: 0 2px 8px rgba(3, 36, 77, 0.08);
-  --shadow-hover: 0 4px 16px rgba(3, 36, 77, 0.14);
+  --shadow: 0 2px 8px rgba(12, 35, 64, 0.08);
+  --shadow-hover: 0 4px 16px rgba(12, 35, 64, 0.14);
 }
 
 /* ---- Global ---- */
@@ -35,12 +37,16 @@ body {
 .site-header .wrapper {
   padding-top: 10px;
   padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .site-title, .site-title:visited {
   color: #fff !important;
   font-weight: 700 !important;
   font-size: 1.15rem !important;
   letter-spacing: 0.01em;
+  float: none !important;
 }
 .site-nav .page-link {
   color: rgba(255,255,255,0.85) !important;
@@ -199,7 +205,7 @@ table tbody tr:hover { background: #e8ecf2; }
   box-shadow: var(--shadow);
 }
 .btn-download:hover {
-  background: #c44a0a;
+  background: #C96218;
   box-shadow: var(--shadow-hover);
 }
 .btn-download::before {
