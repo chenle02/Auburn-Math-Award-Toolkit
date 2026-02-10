@@ -1,0 +1,84 @@
+% ============================================================================
+% Nomination Package: Marie Kraska Award for Excellence in Teaching
+% ============================================================================
+% INSTRUCTIONS:
+%   1. Replace \Nominee and \Award definitions below with actual values.
+%   2. Replace all placeholder PDFs with the real documents.
+%   3. Adjust \section / \subsection titles and page ranges as needed.
+%   4. Compile: pdflatex Nomination_Package_Kraska.tex  (run twice for TOC)
+% ============================================================================
+\documentclass[a4paper,12pt]{article}
+\usepackage{nomination-package}  % shared style (see nomination-package.sty)
+
+% ---- EDIT THESE ----
+\def\Nominee{Dr. John Smith}                     % <-- Replace with nominee name
+\def\Award{2026 Marie Kraska Award for \\
+  Excellence in Teaching \\ \bigskip}             % <-- Replace year as needed
+
+\title{Nomination Package\\ \bigskip
+  {\bf \Nominee}\\ \bigskip
+  for \\ \bigskip
+  \Award}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagenumbering{gobble}
+\tableofcontents
+\newpage
+\thispagestyle{plain}
+\pagenumbering{arabic}
+
+% =============================================
+% SECTION 1: Nomination Letter
+% =============================================
+\myPart{\section{Nomination letter from Dr. [Nominator Name]}}
+\vfile{./Nomination_Letter.pdf}
+
+% =============================================
+% SECTION 2: Nominee's CV
+% =============================================
+\myPart{\section{Nominee's CV}}
+\vfile{./CV.pdf}
+
+% =============================================
+% SECTION 3: Teaching Evaluations (past 3 years)
+% =============================================
+% For the Kraska Award, 3 years of evaluations are standard.
+% Teaching evaluations are typically in landscape format.
+% Use \hselectedfile{filename.pdf}{page-list} to pick specific pages.
+\myPart{\section{Teaching evaluations from the past three years}}
+
+\myPart{\subsection{2024 Spring MATH/STAT XXXX-XXX}}
+\hfile{./Teaching_Evals_2024.pdf}{-}
+% To select specific pages from a combined file:
+% \myPart{\subsection{2024 Fall STAT YYYY-YYY}}
+% \hselectedfile{./Teaching_Evals_2024.pdf}{3,4}
+
+\myPart{\subsection{2023 Fall MATH/STAT XXXX-XXX}}
+\hfile{./Teaching_Evals_2023.pdf}{-}
+
+\myPart{\subsection{2022 Spring MATH/STAT XXXX-XXX}}
+\hfile{./Teaching_Evals_2022.pdf}{-}
+
+% =============================================
+% SECTION 4: Supporting Letters
+% =============================================
+% The Kraska Award selection committee values letters from:
+%   - Faculty colleagues
+%   - Graduate alumni (especially recommended by the donor)
+%   - Current graduate students
+\myPart{\section{Supporting letters}}
+
+\myPart{\subsection{Supporting letter from Dr. [Faculty Name]}}
+\vfile{./Support_Letter_Faculty.pdf}
+
+\myPart{\subsection{Supporting letter from graduate student -- Mr./Ms. [Name]}}
+\vfile{./Support_Letter_Grad_Student.pdf}
+
+\myPart{\subsection{Supporting letter from graduate alumnus -- Dr. [Name]}}
+\vfile{./Support_Letter_Alumnus.pdf}
+
+\end{document}

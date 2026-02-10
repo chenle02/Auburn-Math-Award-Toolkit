@@ -1,0 +1,32 @@
+title: "Auburn Math & Stats — Faculty Award Nomination Toolkit"
+description: >-
+  Templates and guidelines for preparing nomination packages for the
+  Robert K. Butz Award, Marie Kraska Award, and Jack B. Brown Endowed
+  Faculty Award in the Department of Mathematics and Statistics at
+  Auburn University.
+baseurl: "/Auburn-Math-Award-Toolkit"
+url: "https://chenle02.github.io"
+theme: minima
+
+author:
+  name: "Faculty Award Committee, Dept. of Mathematics & Statistics"
+
+header_pages:
+  - index.md
+  - butz-award.md
+  - kraska-award.md
+  - jack-b-brown-award.md
+  - email-templates.md
+  - how-to-use.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - templates/
+  - assets/mock-pdfs/
+  - "*.tex"
+  - "*.aux"
+  - "*.log"
+  - "*.gz"
+  - "*.out"

@@ -1,0 +1,87 @@
+% ============================================================================
+% Nomination Package: Robert K. Butz Award for Excellence in Teaching
+% ============================================================================
+% INSTRUCTIONS:
+%   1. Replace \Nominee and \Award definitions below with actual values.
+%   2. Replace all placeholder PDFs (Nomination_Letter.pdf, CV.pdf, etc.)
+%      with the real documents.
+%   3. Adjust \section / \subsection titles and \hfile page ranges as needed.
+%   4. Compile: pdflatex Nomination_Package_Butz.tex  (run twice for TOC)
+% ============================================================================
+\documentclass[a4paper,12pt]{article}
+\usepackage{nomination-package}  % shared style (see nomination-package.sty)
+
+% ---- EDIT THESE ----
+\def\Nominee{Dr. Jane Doe}                     % <-- Replace with nominee name
+\def\Award{2026 the Robert K. Butz Award\\
+  for Excellence in Teaching \\ \bigskip}       % <-- Replace year as needed
+
+\title{Nomination Package\\ \bigskip
+  {\bf \Nominee}\\ \bigskip
+  for \\ \bigskip
+  \Award}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagenumbering{gobble}
+\tableofcontents
+\newpage
+\thispagestyle{plain}
+\pagenumbering{arabic}
+
+% =============================================
+% SECTION 1: Nomination Letter
+% =============================================
+\myPart{\section{Nomination letter from Dr. [Nominator Name]}}
+\vfile{./Nomination_Letter.pdf}
+
+% =============================================
+% SECTION 2: Nominee's CV
+% =============================================
+\myPart{\section{Nominee's CV}}
+\vfile{./CV.pdf}
+
+% =============================================
+% SECTION 3: Teaching Evaluations (past 3-5 years)
+% =============================================
+% Teaching evaluations are typically in landscape format.
+% Use \hfile{filename.pdf}{page-range} for landscape pages.
+% Use \hselectedfile{filename.pdf}{page-list} for specific pages.
+%
+% Example with separate files per year:
+\myPart{\section{Teaching evaluations from the past five years}}
+
+\myPart{\subsection{2024 Fall MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2024.pdf}{-}
+% If the eval file has multiple courses, select pages:
+% \myPart{\subsection{2024 Spring MATH YYYY-YYY}}
+% \hfile{./Teaching_Evals_2024.pdf}{3-4}
+
+\myPart{\subsection{2023 Spring MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2023.pdf}{-}
+
+\myPart{\subsection{2022 Fall MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2022.pdf}{-}
+
+% =============================================
+% SECTION 4: Peer Teaching Evaluation
+% =============================================
+\myPart{\section{Peer teaching evaluations}}
+\myPart{\subsection{Peer evaluation from Dr. [Peer Name]}}
+\vfile{./Peer_Evaluation.pdf}
+
+% =============================================
+% SECTION 5: Supporting Letters
+% =============================================
+\myPart{\section{Supporting letters}}
+
+\myPart{\subsection{Supporting letter from graduate student -- Mr./Ms. [Name]}}
+\vfile{./Support_Letter_Student_1.pdf}
+
+\myPart{\subsection{Supporting letter from graduate student -- Mr./Ms. [Name]}}
+\vfile{./Support_Letter_Student_2.pdf}
+
+\end{document}

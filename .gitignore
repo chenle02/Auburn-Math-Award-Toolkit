@@ -1,0 +1,20 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.gz
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db

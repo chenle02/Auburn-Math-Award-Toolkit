@@ -1,0 +1,85 @@
+% ============================================================================
+% Nomination Package: Jack B. Brown Endowed Faculty Award
+% ============================================================================
+% INSTRUCTIONS:
+%   1. Replace \Nominee and \Award definitions below with actual values.
+%   2. Replace all placeholder PDFs with the real documents.
+%   3. Adjust \section / \subsection titles and page ranges as needed.
+%   4. Compile: pdflatex Nomination_Package_JBBrown.tex  (run twice for TOC)
+%
+% NOTE: This award recognizes BOTH teaching AND research excellence.
+%       The nomination letter and supporting materials should address both.
+% ============================================================================
+\documentclass[a4paper,12pt]{article}
+\usepackage{nomination-package}  % shared style (see nomination-package.sty)
+
+% ---- EDIT THESE ----
+\def\Nominee{Dr. Alice Johnson}                     % <-- Replace with nominee name
+\def\Award{2027--2029 Jack B. Brown Endowed \\
+  Faculty Award \\ \bigskip}                         % <-- Replace years as needed
+
+\title{Nomination Package\\ \bigskip
+  {\bf \Nominee}\\ \bigskip
+  for \\ \bigskip
+  \Award}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagenumbering{gobble}
+\tableofcontents
+\newpage
+\thispagestyle{plain}
+\pagenumbering{arabic}
+
+% =============================================
+% SECTION 1: Nomination Letter
+% =============================================
+% The nomination letter should address how the nominee personifies
+% Dr. Jack B. Brown: strong commitment to students + excellence in
+% teaching AND research.
+\myPart{\section{Nomination letter from Dr. [Nominator Name]}}
+\vfile{./Nomination_Letter.pdf}
+
+% =============================================
+% SECTION 2: Nominee's CV
+% =============================================
+\myPart{\section{Nominee's CV}}
+\vfile{./CV.pdf}
+
+% =============================================
+% SECTION 3: Research Statement
+% =============================================
+% A brief research statement (1-3 pages) summarizing the nominee's
+% research accomplishments, impact, and ongoing program.
+\myPart{\section{Research statement}}
+\vfile{./Research_Statement.pdf}
+
+% =============================================
+% SECTION 4: Teaching Evaluations (past 3-5 years)
+% =============================================
+\myPart{\section{Teaching evaluations from the past five years}}
+
+\myPart{\subsection{2024 Fall MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2024.pdf}{-}
+
+\myPart{\subsection{2023 Spring MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2023.pdf}{-}
+
+\myPart{\subsection{2022 Fall MATH XXXX-XXX}}
+\hfile{./Teaching_Evals_2022.pdf}{-}
+
+% =============================================
+% SECTION 5: Supporting Letters
+% =============================================
+\myPart{\section{Supporting letters}}
+
+\myPart{\subsection{Supporting letter from Dr. [Faculty Name]}}
+\vfile{./Support_Letter_Faculty.pdf}
+
+\myPart{\subsection{Supporting letter from graduate student -- Mr./Ms. [Name]}}
+\vfile{./Support_Letter_Student.pdf}
+
+\end{document}
