@@ -74,7 +74,7 @@ A complete Jack B. Brown Award nomination package should include:
 
 ## Download Template Package
 
-**[Download Jack B. Brown Award Template (ZIP)](templates/jack-b-brown-award/)**
+<a href="https://github.com/chenle02/Auburn-Math-Award-Toolkit/tree/main/templates/jack-b-brown-award" class="btn-download">Download Jack B. Brown Award Template</a>
 
 The template directory contains:
 

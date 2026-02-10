@@ -75,7 +75,7 @@ A complete Butz Award nomination package should include:
 
 ## Download Template Package
 
-**[Download Butz Award Template (ZIP)](templates/butz-award/)**
+<a href="https://github.com/chenle02/Auburn-Math-Award-Toolkit/tree/main/templates/butz-award" class="btn-download">Download Butz Award Template</a>
 
 The template directory contains:
 

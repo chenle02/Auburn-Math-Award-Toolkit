@@ -73,7 +73,7 @@ A complete Kraska Award nomination package should include:
 
 ## Download Template Package
 
-**[Download Kraska Award Template (ZIP)](templates/kraska-award/)**
+<a href="https://github.com/chenle02/Auburn-Math-Award-Toolkit/tree/main/templates/kraska-award" class="btn-download">Download Kraska Award Template</a>
 
 The template directory contains:
 

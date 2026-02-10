@@ -1,0 +1,276 @@
+/* ============================================================
+   Auburn Math Award Toolkit — Custom Styles
+   Auburn Navy: #03244d   Auburn Orange: #DD550C (official AU)
+   ============================================================ */
+
+:root {
+  --au-navy: #03244d;
+  --au-orange: #DD550C;
+  --au-orange-light: #f5a623;
+  --au-navy-light: #1a4a7a;
+  --au-cream: #faf8f5;
+  --au-gray: #f4f4f4;
+  --au-border: #dde1e6;
+  --au-text: #2c3e50;
+  --au-text-light: #5a6a7a;
+  --radius: 8px;
+  --shadow: 0 2px 8px rgba(3, 36, 77, 0.08);
+  --shadow-hover: 0 4px 16px rgba(3, 36, 77, 0.14);
+}
+
+/* ---- Global ---- */
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--au-text);
+  line-height: 1.7;
+}
+
+/* ---- Header / Nav ---- */
+.site-header {
+  background: var(--au-navy) !important;
+  border-top: 4px solid var(--au-orange);
+  border-bottom: none !important;
+  min-height: auto !important;
+}
+.site-header .wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.site-title, .site-title:visited {
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.01em;
+}
+.site-nav .page-link {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 0.92rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.site-nav .page-link:hover {
+  color: var(--au-orange-light) !important;
+  text-decoration: none;
+}
+/* mobile hamburger */
+.site-nav .menu-icon > svg { fill: #fff; }
+@media (max-width: 600px) {
+  .site-nav { background: var(--au-navy); }
+  .site-nav .trigger { background: var(--au-navy); border-radius: 0 0 var(--radius) var(--radius); }
+  .site-nav .page-link { color: rgba(255,255,255,0.9) !important; }
+}
+
+/* ---- Hero banner (home only) ---- */
+.hero {
+  background: linear-gradient(135deg, var(--au-navy) 60%, var(--au-navy-light) 100%);
+  color: #fff;
+  padding: 2.5rem 2rem 2rem;
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  background: var(--au-orange);
+  opacity: 0.10;
+  border-radius: 50%;
+}
+.hero h1 { color: #fff; margin-bottom: 0.3rem; font-size: 1.9rem; }
+.hero .subtitle { color: rgba(255,255,255,0.8); font-size: 1.05rem; margin-bottom: 1rem; }
+.hero a { color: var(--au-orange-light); }
+
+/* ---- Award cards ---- */
+.award-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0 2rem;
+}
+.award-card {
+  background: #fff;
+  border: 1px solid var(--au-border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.3rem;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.25s, transform 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.award-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+.award-card .card-accent {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+}
+.award-card.butz .card-accent  { background: var(--au-orange); }
+.award-card.kraska .card-accent { background: var(--au-navy-light); }
+.award-card.brown .card-accent  { background: #b8860b; }
+
+.award-card h3 { margin-top: 0.5rem; font-size: 1.15rem; }
+.award-card h3 a { color: var(--au-navy); text-decoration: none; }
+.award-card h3 a:hover { color: var(--au-orange); }
+.award-card .meta { color: var(--au-text-light); font-size: 0.88rem; margin-bottom: 0.5rem; }
+.award-card p { font-size: 0.93rem; color: var(--au-text); }
+
+/* ---- Info / tip / warning boxes ---- */
+blockquote {
+  border-left: 4px solid var(--au-orange) !important;
+  background: var(--au-cream);
+  padding: 1rem 1.2rem !important;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--au-text) !important;
+  font-size: 0.95rem !important;
+  font-style: normal !important;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ---- Tables ---- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.93rem;
+  margin: 1rem 0 1.5rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+table thead th {
+  background: var(--au-navy) !important;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  border: none !important;
+}
+table tbody td {
+  padding: 0.55rem 0.8rem;
+  border-bottom: 1px solid var(--au-border);
+}
+table tbody tr:nth-child(even) { background: var(--au-gray); }
+table tbody tr:hover { background: #e8ecf2; }
+
+/* ---- Steps / Quick Start ---- */
+.steps {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+}
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0; top: 0;
+  width: 2rem; height: 2rem;
+  background: var(--au-orange);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- Download button ---- */
+.btn-download {
+  display: inline-block;
+  background: var(--au-orange);
+  color: #fff !important;
+  padding: 0.65rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow);
+}
+.btn-download:hover {
+  background: #c44a0a;
+  box-shadow: var(--shadow-hover);
+}
+.btn-download::before {
+  content: '\2B07  ';
+}
+
+/* ---- Code blocks ---- */
+pre, code {
+  font-size: 0.88rem !important;
+}
+pre {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem !important;
+  border: none !important;
+  overflow-x: auto;
+}
+code {
+  background: #eef1f5;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ---- Headings ---- */
+h1 { color: var(--au-navy); font-size: 1.8rem; border-bottom: 3px solid var(--au-orange); padding-bottom: 0.3rem; }
+h2 { color: var(--au-navy); font-size: 1.35rem; margin-top: 2rem; }
+h3 { color: var(--au-navy-light); font-size: 1.1rem; }
+hr { border: none; border-top: 2px solid var(--au-border); margin: 2rem 0; }
+
+/* ---- Links ---- */
+a { color: var(--au-navy-light); transition: color 0.15s; }
+a:hover { color: var(--au-orange); }
+
+/* ---- Footer ---- */
+.site-footer {
+  background: var(--au-navy) !important;
+  border-top: 3px solid var(--au-orange) !important;
+  color: rgba(255,255,255,0.7) !important;
+  padding: 1.5rem 0 !important;
+}
+.site-footer h2 { color: rgba(255,255,255,0.9) !important; font-size: 1rem !important; border-bottom: none !important; }
+.site-footer a { color: var(--au-orange-light) !important; }
+.site-footer p, .site-footer li { color: rgba(255,255,255,0.65) !important; font-size: 0.88rem; }
+
+/* ---- Badges ---- */
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.badge-annual  { background: #dbeafe; color: #1e40af; }
+.badge-biennial { background: #fef3c7; color: #92400e; }
+
+/* ---- Checklist style ---- */
+.checklist { list-style: none; padding-left: 0; }
+.checklist li { padding-left: 1.6rem; position: relative; margin-bottom: 0.4rem; }
+.checklist li::before { content: '\2610'; position: absolute; left: 0; color: var(--au-orange); font-size: 1.1em; }
+
+/* ---- Responsive ---- */
+@media (max-width: 700px) {
+  .award-cards { grid-template-columns: 1fr; }
+  .hero { padding: 1.5rem 1rem; }
+  .hero h1 { font-size: 1.5rem; }
+  table { font-size: 0.85rem; }
+}

@@ -9,7 +9,13 @@ url: "https://chenle02.github.io"
 theme: minima
 
 author:
-  name: "Faculty Award Committee, Dept. of Mathematics & Statistics"
+  name: "Faculty Award Committee"
+
+show_excerpts: false
+
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/chenle02/Auburn-Math-Award-Toolkit" }
 
 header_pages:
   - index.md
@@ -23,10 +29,14 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - templates/
   - assets/mock-pdfs/
+  - assets/generate_mock_pdfs.sh
   - "*.tex"
+  - "*.sty"
   - "*.aux"
   - "*.log"
   - "*.gz"
   - "*.out"
+  - "*.pdf"
