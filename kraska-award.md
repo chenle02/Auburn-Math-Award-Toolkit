@@ -3,13 +3,10 @@ layout: default
 title: Kraska Award
 ---
 
-# Marie Kraska Award for Excellence in Teaching
-
-> **Frequency:** Annual (Spring semester)
->
-> **Award:** $1,000 (pre-tax) and a plaque
->
-> **Official Page:** [Auburn Math Faculty Awards](https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm)
+<div class="page-hero">
+<h1>Marie Kraska Award for Excellence in Teaching</h1>
+<p class="subtitle">Annual &bull; $1,000 + plaque &bull; Associate/Full Professors (Math & Stat) &bull; <a href="https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm">Official Page &rarr;</a></p>
+</div>
 
 ---
 

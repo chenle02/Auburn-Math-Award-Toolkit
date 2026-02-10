@@ -3,17 +3,11 @@ layout: default
 title: Home
 ---
 
-<div class="hero" markdown="1">
-
-## Faculty Award Nomination Toolkit
-{: style="border-bottom: none;"}
-
+<div class="hero">
+<h2>Faculty Award Nomination Toolkit</h2>
 <p class="subtitle">Department of Mathematics and Statistics &bull; Auburn University</p>
-
-Templates, guidelines, and tools for preparing nomination packages for the three departmental faculty awards. Everything you need — whether you are a nominator, a committee member, or the nominee gathering materials.
-
-[Official Auburn Award Page &rarr;](https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm){: style="color: #f5a623; font-weight: 600;"}
-
+<p>Templates, guidelines, and tools for preparing nomination packages for the three departmental faculty awards. Everything you need — whether you are a nominator, a committee member, or the nominee gathering materials.</p>
+<p><a href="https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm" style="font-weight: 600;">Official Auburn Award Page &rarr;</a></p>
 </div>
 
 ## The Three Awards

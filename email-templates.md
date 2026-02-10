@@ -3,9 +3,10 @@ layout: default
 title: Email Templates
 ---
 
-# Email Templates
-
-Below are sample email templates for the various communications involved in preparing a nomination package. Copy, customize, and send.
+<div class="page-hero">
+<h1>Email Templates</h1>
+<p class="subtitle">Sample emails for requesting nomination letters, support letters, and materials</p>
+</div>
 
 ---
 

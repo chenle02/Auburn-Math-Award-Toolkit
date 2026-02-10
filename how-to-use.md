@@ -3,7 +3,10 @@ layout: default
 title: How to Use
 ---
 
-# How to Use This Toolkit
+<div class="page-hero">
+<h1>How to Use This Toolkit</h1>
+<p class="subtitle">Step-by-step guide to preparing a nomination package with LaTeX</p>
+</div>
 
 ## Prerequisites
 

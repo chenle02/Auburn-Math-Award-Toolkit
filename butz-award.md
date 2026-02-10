@@ -3,13 +3,10 @@ layout: default
 title: Butz Award
 ---
 
-# Robert K. Butz Award for Excellence in Teaching
-
-> **Frequency:** Annual (Spring semester)
->
-> **Award:** $1,500 and a plaque
->
-> **Official Page:** [Auburn Math Faculty Awards](https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm)
+<div class="page-hero">
+<h1>Robert K. Butz Award for Excellence in Teaching</h1>
+<p class="subtitle">Annual &bull; $1,500 + plaque &bull; Assistant Professors (Math) &bull; <a href="https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm">Official Page &rarr;</a></p>
+</div>
 
 ---
 

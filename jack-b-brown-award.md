@@ -3,13 +3,10 @@ layout: default
 title: Jack B. Brown Award
 ---
 
-# Jack B. Brown Endowed Faculty Award
-
-> **Frequency:** Every 2 years
->
-> **Award:** $2,000 per two years (pre-tax) and a plaque
->
-> **Official Page:** [Auburn Math Faculty Awards](https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm)
+<div class="page-hero">
+<h1>Jack B. Brown Endowed Faculty Award</h1>
+<p class="subtitle">Every 2 Years &bull; $2,000 + plaque &bull; All Ranks (Teaching + Research) &bull; <a href="https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm">Official Page &rarr;</a></p>
+</div>
 
 ---
 
