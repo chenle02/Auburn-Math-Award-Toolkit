@@ -5,18 +5,38 @@ title: How to Use
 
 <div class="page-hero">
 <h1>How to Use This Toolkit</h1>
-<p class="subtitle">Step-by-step guide to preparing a nomination package with LaTeX</p>
+<p class="subtitle">Guide for Award Committee members assembling nomination packages</p>
 </div>
 
-## Prerequisites
+This guide is intended for **Award Committee members** who need to assemble the final nomination package after collecting all materials.
+
+## The Nomination Workflow
+
+<div class="workflow-overview">
+
+**Step 1.** Faculty member sends nomination letter to the Award Committee.
+
+**Step 2.** Committee contacts nominee to request: CV, teaching evaluations, and letter writer names.
+
+**Step 3.** Committee contacts letter writers to request support letters.
+
+**Step 4.** Committee assembles all materials into a single PDF package (this guide).
+
+**Step 5.** Committee convenes to review packages and select recipient(s).
+
+</div>
+
+---
+
+## Assembling the Package (Step 4)
+
+### Prerequisites
 
 - A LaTeX distribution (e.g., [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), or [Overleaf](https://www.overleaf.com/))
 - The `pdfpages` package (included in most distributions)
-- A PDF viewer
+- All collected materials as PDF files
 
-## Step-by-Step Guide
-
-### 1. Choose the Correct Award
+### 4.1 Choose the Correct Template
 
 | If the nominee is... | Use this template |
 |-----------------------|-------------------|
@@ -24,31 +44,33 @@ title: How to Use
 | An **associate or full professor** in **math or stat** | [Kraska Award](kraska-award) |
 | Any rank, recognized for **teaching + research** | [Jack B. Brown Award](jack-b-brown-award) |
 
-### 2. Download the Template
+### 4.2 Download the Template
 
-Download or clone the entire template directory for your chosen award. Each directory contains:
+Download or clone the entire template directory for the chosen award. Each directory contains:
 - The main `.tex` file
 - The `nomination-package.sty` style file
 - Placeholder PDF files
 
-### 3. Collect Materials
+### 4.3 Gather Collected Materials
 
-Use the [Email Templates](email-templates) to request:
+By this point, the committee should have collected:
 
-| Material | From Whom | Format |
-|----------|-----------|--------|
-| Nomination letter | A senior faculty member | Signed PDF |
-| CV | The nominee | PDF |
-| Teaching evaluations | The nominee (from Auburn's system) | PDF (often landscape) |
-| Peer evaluation | A faculty colleague | Signed PDF |
+| Material | Source | Format |
+|----------|--------|--------|
+| Nomination letter | Nominating faculty member | Signed PDF |
+| CV | Nominee | PDF |
+| Teaching evaluations | Nominee (from Auburn's system) | PDF (often landscape) |
+| Peer evaluation | Faculty colleague | Signed PDF |
 | Support letters | Students, alumni, faculty | Signed PDFs |
-| Research statement | The nominee (Jack B. Brown only) | PDF |
+| Research statement | Nominee (Jack B. Brown only) | PDF |
 
-### 4. Replace Placeholder PDFs
+Use the [Email Templates](email-templates) for sample request emails.
 
-Replace each placeholder file with the actual document, **keeping the same filename**, or update the `\vfile{}` / `\hfile{}` commands in the `.tex` file to match your filenames.
+### 4.4 Replace Placeholder PDFs
 
-### 5. Edit the LaTeX File
+Replace each placeholder file with the actual collected document, **keeping the same filename**, or update the `\vfile{}` / `\hfile{}` commands in the `.tex` file to match your filenames.
+
+### 4.5 Edit the LaTeX File
 
 Open the `.tex` file and update:
 
@@ -73,7 +95,7 @@ Then adjust section titles and `\vfile` / `\hfile` commands:
 \hselectedfile{./All_Evals.pdf}{5,6,7}
 ```
 
-### 6. Compile
+### 4.6 Compile
 
 ```bash
 pdflatex Nomination_Package_Butz.tex
@@ -82,12 +104,12 @@ pdflatex Nomination_Package_Butz.tex   # run twice for table of contents
 
 Or upload to **Overleaf** for online compilation.
 
-### 7. Review and Submit
+### 4.7 Review the Package
 
 - Check the PDF for correct page ordering and readability.
 - Verify the table of contents is accurate.
 - Confirm the nominee's name appears in the footer of every page.
-- Submit the final PDF to the committee chair.
+- Save the final PDF for committee review.
 
 ---
 

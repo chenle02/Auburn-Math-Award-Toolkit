@@ -40,29 +40,57 @@ title: Home
 
 ---
 
-## Quick Start
+## Nomination Workflow
+
+The nomination process is coordinated by the Award Committee. Here's how it works:
 
 <ol class="steps">
-<li><strong>Identify the award</strong> your nominee is eligible for (see award pages above).</li>
-<li><strong>Download the template package</strong> for that award from its page.</li>
-<li><strong>Collect the required materials</strong> — nomination letter, CV, teaching evaluations, support letters.</li>
-<li><strong>Replace the placeholder PDFs</strong> with the actual documents.</li>
-<li><strong>Compile the LaTeX file</strong> — run <code>pdflatex</code> twice to produce the final PDF with table of contents.</li>
-<li><strong>Submit</strong> the compiled PDF to the Award Committee Chair.</li>
+<li><strong>Step 1: Nomination Letter</strong><br>
+A faculty member submits a nomination letter to the Award Committee, identifying the nominee and the award.</li>
+
+<li><strong>Step 2: Contact Nominee</strong><br>
+The Award Committee contacts the nominee to request:
+<ul>
+<li>Teaching evaluations (from Auburn's system)</li>
+<li>Current CV</li>
+<li>Names and contact information of potential letter writers</li>
+</ul>
+</li>
+
+<li><strong>Step 3: Request Support Letters</strong><br>
+Upon receiving the nominee's materials, the Award Committee contacts the letter writers to request support letters.</li>
+
+<li><strong>Step 4: Assemble the Package</strong><br>
+After all materials are collected, the Award Committee assembles the complete nomination package using the LaTeX templates provided here.</li>
+
+<li><strong>Step 5: Selection</strong><br>
+The Award Committee convenes to review all nomination packages and select the award recipient(s).</li>
 </ol>
+
+### For Nominators
+
+If you wish to nominate a colleague, simply send a nomination letter to the Award Committee Chair (see contact info below). The committee will handle the rest of the process.
+
+### For Committee Members
+
+See [How to Use](how-to-use) for detailed instructions on assembling nomination packages using the LaTeX templates.
 
 ---
 
-## What's in Each Template Package?
+## Template Packages (For Committee Use)
+
+Each award has a LaTeX template package for assembling the final nomination PDF:
 
 | File | Purpose |
 |------|---------|
 | `Nomination_Package_<Award>.tex` | Main LaTeX file — assembles all materials into one professionally formatted PDF |
 | `nomination-package.sty` | Shared style file with custom commands (`\vfile`, `\hfile`, `\myPart`) |
-| Placeholder PDFs | Mock files to be replaced with real documents |
+| Placeholder PDFs | Mock files to be replaced with actual collected documents |
 | `README.md` | Award-specific checklist and instructions |
 
-See also: [Email Templates](email-templates) for sample request emails &bull; [How to Use](how-to-use) for a step-by-step guide.
+**Resources:**
+- [Email Templates](email-templates) — Sample emails for contacting nominees and letter writers
+- [How to Use](how-to-use) — Step-by-step guide for assembling packages
 
 ---
 

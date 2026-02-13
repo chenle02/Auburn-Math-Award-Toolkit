@@ -5,8 +5,16 @@ title: Email Templates
 
 <div class="page-hero">
 <h1>Email Templates</h1>
-<p class="subtitle">Sample emails for requesting nomination letters, support letters, and materials</p>
+<p class="subtitle">Sample emails for the Award Committee to use when coordinating nominations</p>
 </div>
+
+These templates follow the [nomination workflow](./):
+
+| Workflow Step | Email Template |
+|---------------|----------------|
+| Step 1: Receive nomination | [Call for Nominations](#5-call-for-nominations-department-wide) |
+| Step 2: Contact nominee | [Requesting Materials from Nominee](#4-requesting-materials-from-the-nominee) |
+| Step 3: Contact letter writers | [Support Letter (Faculty)](#2-requesting-a-supporting-letter-faculty-colleague), [Support Letter (Student)](#3-requesting-a-supporting-letter-student--graduate-alumnus) |
 
 ---
 
