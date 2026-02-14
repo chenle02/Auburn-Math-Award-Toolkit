@@ -10,6 +10,15 @@ title: Butz Award
 
 ---
 
+## 2026 Deadlines
+
+| Milestone | Date |
+|-----------|------|
+| **Nominations due** (names only) | Friday, February 20, 2026 |
+| **Complete packages due** | Friday, March 20, 2026 |
+
+---
+
 ## Background
 
 This annual award was established by **Dr. Phillip W. Bean**, who received his collegiate training in mathematics at Auburn University. **Dr. Robert K. Butz** was a faculty member of the Department of Mathematics at Auburn University; he passed away in 2012.

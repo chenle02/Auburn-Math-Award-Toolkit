@@ -10,6 +10,15 @@ title: Kraska Award
 
 ---
 
+## 2026 Deadlines
+
+| Milestone | Date |
+|-----------|------|
+| **Nominations due** (names only) | Friday, February 20, 2026 |
+| **Complete packages due** | Friday, March 20, 2026 |
+
+---
+
 ## Background
 
 This annual award was established by **Dr. Marie Kraska**, a Mildred Cheshire Fraley Distinguished Professor in the Department of Educational Foundations, Leadership and Technology. Dr. Kraska received a Master's degree in Probability and Statistics from the Department of Mathematics and Statistics at Auburn University.

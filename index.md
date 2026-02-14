@@ -10,6 +10,15 @@ title: Home
 <p><a href="https://www.auburn.edu/cosam/departments/math/faculty%20awards/index.htm" style="font-weight: 600;">Official Auburn Award Page &rarr;</a></p>
 </div>
 
+## 2026 Deadlines
+
+| Milestone | Date |
+|-----------|------|
+| **Nominations due** (names only) | Friday, February 20, 2026 |
+| **Complete packages due** | Friday, March 20, 2026 |
+
+---
+
 ## The Three Awards
 {: style="border-bottom: none; margin-top: 0;"}
 
