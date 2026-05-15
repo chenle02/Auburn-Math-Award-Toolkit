@@ -78,11 +78,18 @@ cd Auburn-Math-Award-Toolkit/templates/butz-award/   # or kraska-award/ or jack-
 - [COSAM Awards](https://www.auburn.edu/cosam/awards/academic_awards/index.htm)
 - [Department of Mathematics and Statistics](https://www.auburn.edu/cosam/departments/math/index.htm)
 
-## Faculty Award Committee (2025 Fall -- Present)
+## Faculty Award Committee (2026 Fall -- Present)
 
 - **Le Chen** (Chair)
 - **Bingyang Hu**
-- **Jerzy Szulga**
+- **Jingyi (Ginny) Zheng**
+
+### Previous Committees
+
+| Period | Members |
+|--------|---------|
+| 2025 Fall -- 2026 Spring | Le Chen (Chair), Bingyang Hu, Jerzy Szulga |
+| 2021 Fall -- 2025 Spring | Peng Zeng (Chair), Le Chen, Jerzy Szulga |
 
 ## License
 

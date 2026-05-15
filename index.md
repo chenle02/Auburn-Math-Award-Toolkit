@@ -103,15 +103,22 @@ Each award has a LaTeX template package for assembling the final nomination PDF:
 
 ---
 
-## Current Committee (2025 Fall -- Present)
+## Current Committee (2026 Fall -- Present)
 
 | Role | Name | Email |
 |------|------|-------|
 | **Chair** | Le Chen | lzc0090@auburn.edu |
 | Member | Bingyang Hu | bzh0108@auburn.edu |
-| Member | Jerzy Szulga | szulgje@auburn.edu |
+| Member | Jingyi (Ginny) Zheng | jzz0121@auburn.edu |
 
 **Department Chair:** Nedret Billor — billone@auburn.edu
+
+### Previous Committees
+
+| Period | Members |
+|--------|---------|
+| 2025 Fall -- 2026 Spring | Le Chen (Chair), Bingyang Hu, Jerzy Szulga |
+| 2021 Fall -- 2025 Spring | Peng Zeng (Chair), Le Chen, Jerzy Szulga |
 
 ---
 
