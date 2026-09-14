@@ -83,6 +83,7 @@ cd Auburn-Math-Award-Toolkit/templates/butz-award/   # or kraska-award/ or jack-
 - **Le Chen** (Chair)
 - **Bingyang Hu**
 - **Jingyi (Ginny) Zheng**
+- **Thomas Whitt**
 
 ### Previous Committees
 

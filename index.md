@@ -110,6 +110,7 @@ Each award has a LaTeX template package for assembling the final nomination PDF:
 | **Chair** | Le Chen | lzc0090@auburn.edu |
 | Member | Bingyang Hu | bzh0108@auburn.edu |
 | Member | Jingyi (Ginny) Zheng | jzz0121@auburn.edu |
+| Member | Thomas Whitt | trw0003@auburn.edu |
 
 **Department Chair:** Nedret Billor — billone@auburn.edu
 
